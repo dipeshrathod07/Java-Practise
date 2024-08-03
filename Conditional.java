@@ -126,5 +126,18 @@ public class Conditional
                 break;
         }
     }
+
+    //Ternary Operator
+
+    static void Ternary()
+    {
+        int largest = (5>3)?5:3;
+        System.out.println(largest);
+
+
+        String type = (5 % 2 == 0) ? "even":"odd";
+        System.out.println(type);
+
+    }
     
 }
